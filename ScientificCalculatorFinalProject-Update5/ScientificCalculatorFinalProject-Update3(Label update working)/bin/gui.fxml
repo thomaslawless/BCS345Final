@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="488.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Pane layoutY="25.0" prefHeight="600.0" prefWidth="413.0">
+         <children>
+            <Button fx:id="digit8" layoutX="188.0" layoutY="349.0" mnemonicParsing="false" onAction="#actionEight" prefHeight="25.0" prefWidth="37.0" text="8" />
+            <Button fx:id="digit7" layoutX="141.0" layoutY="349.0" mnemonicParsing="false" onAction="#actionSeven" prefHeight="25.0" prefWidth="37.0" text="7" />
+            <Button fx:id="digit9" layoutX="235.0" layoutY="349.0" mnemonicParsing="false" onAction="#actionNine" prefHeight="25.0" prefWidth="37.0" text="9" />
+            <Button fx:id="digit5" layoutX="188.0" layoutY="382.0" mnemonicParsing="false" onAction="#actionFive" prefHeight="25.0" prefWidth="37.0" text="5" />
+            <Button fx:id="digit4" layoutX="141.0" layoutY="382.0" mnemonicParsing="false" onAction="#actionFour" prefHeight="25.0" prefWidth="37.0" text="4" />
+            <Button fx:id="digit6" layoutX="235.0" layoutY="382.0" mnemonicParsing="false" onAction="#actionSix" prefHeight="25.0" prefWidth="37.0" text="6" />
+            <Button fx:id="digit2" layoutX="188.0" layoutY="414.0" mnemonicParsing="false" onAction="#actionTwo" prefHeight="25.0" prefWidth="37.0" text="2" />
+            <Button fx:id="digit1" layoutX="141.0" layoutY="414.0" mnemonicParsing="false" onAction="#actionOne" prefHeight="25.0" prefWidth="37.0" text="1" />
+            <Button fx:id="digit3" layoutX="235.0" layoutY="414.0" mnemonicParsing="false" onAction="#actionThree" prefHeight="25.0" prefWidth="37.0" text="3" />
+            <Button fx:id="digit0" layoutX="188.0" layoutY="446.0" mnemonicParsing="false" onAction="#actionZero" prefHeight="25.0" prefWidth="37.0" text="0" />
+            <Button fx:id="period" layoutX="235.0" layoutY="446.0" mnemonicParsing="false" onAction="#actionPeriod" prefHeight="25.0" prefWidth="37.0" text="." />
+            <Button fx:id="rightParent" layoutX="141.0" layoutY="446.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text=")" />
+            <Button fx:id="leftParent" layoutX="92.0" layoutY="446.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="(" />
+            <Button fx:id="multiply" layoutX="284.0" layoutY="350.0" mnemonicParsing="false" onAction="#ActionMultipy" prefHeight="25.0" prefWidth="37.0" text="x" />
+            <Button fx:id="subtract" layoutX="284.0" layoutY="383.0" mnemonicParsing="false" onAction="#ActionSubtract" prefHeight="25.0" prefWidth="37.0" text="-" />
+            <Button fx:id="plus" layoutX="284.0" layoutY="415.0" mnemonicParsing="false" onAction="#ActionPlus" prefHeight="25.0" prefWidth="37.0" text="+" />
+            <Button fx:id="equals" layoutX="284.0" layoutY="446.0" mnemonicParsing="false" onAction="#ActionEquals" prefHeight="25.0" prefWidth="37.0" text="=" />
+            <Button fx:id="divide" layoutX="284.0" layoutY="315.0" mnemonicParsing="false" onAction="#ActionDivide" prefHeight="25.0" prefWidth="37.0" text="/" />
+            <Button fx:id="backspace" layoutX="235.0" layoutY="315.0" mnemonicParsing="false" onAction="#ActionBackspace" prefHeight="25.0" prefWidth="37.0" text="&lt;" />
+            <Button fx:id="clear" layoutX="188.0" layoutY="315.0" mnemonicParsing="false" onAction="#ActionClear" prefHeight="25.0" prefWidth="37.0" text="C" />
+            <Button fx:id="clearALL" layoutX="141.0" layoutY="315.0" mnemonicParsing="false" onAction="#ActionClearAll" prefHeight="25.0" prefWidth="37.0" text="CE" />
+            <Button fx:id="reversePositive" layoutX="92.0" layoutY="414.0" mnemonicParsing="false" onAction="#ActionReverseSign" prefHeight="25.0" prefWidth="37.0" text="+/-" />
+            <Button fx:id="nButton" layoutX="92.0" layoutY="382.0" mnemonicParsing="false" onAction="#factorialCalculate" prefHeight="25.0" prefWidth="37.0" text="n!" />
+            <Button fx:id="pie" layoutX="92.0" layoutY="349.0" mnemonicParsing="false" onAction="#ActionPie" prefHeight="25.0" prefWidth="37.0" text="PIE" />
+            <Button fx:id="second" layoutX="92.0" layoutY="315.0" mnemonicParsing="false" onAction="#ActionSecond" prefHeight="25.0" prefWidth="37.0" text="2nd" />
+            <Button layoutX="284.0" layoutY="283.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" />
+            <Button fx:id="exp" layoutX="235.0" layoutY="283.0" mnemonicParsing="false" onAction="#ActionExp" prefHeight="25.0" prefWidth="37.0" text="Exp" />
+            <Button fx:id="log" layoutX="188.0" layoutY="283.0" mnemonicParsing="false" onAction="#ActionLog" prefHeight="25.0" prefWidth="37.0" text="log" />
+            <Button fx:id="EXPx" layoutX="141.0" layoutY="283.0" mnemonicParsing="false" onAction="#ActionExpX" prefHeight="25.0" prefWidth="37.0" text="^x">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+            <Button layoutX="92.0" layoutY="283.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" />
+            <Button fx:id="tan" layoutX="284.0" layoutY="249.0" mnemonicParsing="false" onAction="#ActionTan" prefHeight="25.0" prefWidth="37.0" text="tan" />
+            <Button fx:id="cos" layoutX="235.0" layoutY="249.0" mnemonicParsing="false" onAction="#ActionCos" prefHeight="25.0" prefWidth="37.0" text="cos" />
+            <Button fx:id="sin" layoutX="188.0" layoutY="249.0" mnemonicParsing="false" onAction="#ActionSin" prefHeight="25.0" prefWidth="37.0" text="sin" />
+            <Button fx:id="EXPY" layoutX="141.0" layoutY="249.0" mnemonicParsing="false" onAction="#ActionExY" prefHeight="25.0" prefWidth="37.0" text="x^y" />
+            <Button fx:id="EXP2" layoutX="92.0" layoutY="249.0" mnemonicParsing="false" onAction="#ActionExponentTwo" prefHeight="25.0" prefWidth="37.0" text="x^2" />
+            <Button fx:id="memoryClear" layoutX="92.0" layoutY="214.0" mnemonicParsing="false" onAction="#ActionMemoryClear" text="MC" />
+            <Button fx:id="MemoryRecall" layoutX="142.0" layoutY="214.0" mnemonicParsing="false" onAction="#ActionMemoryRecall" text="MR" />
+            <Button fx:id="MemoryPlus" layoutX="190.0" layoutY="214.0" mnemonicParsing="false" onAction="#ActionMemoryPlus" text="M+" />
+            <Button fx:id="MemoryMinus" layoutX="236.0" layoutY="214.0" mnemonicParsing="false" onAction="#ActionMemoryMinus" text="M-" />
+            <Button fx:id="MemoryStore" layoutX="284.0" layoutY="214.0" mnemonicParsing="false" onAction="#ActionMemoryStore" text="MS" />
+            <Label fx:id="outputLabel" graphicTextGap="0.0" layoutX="86.0" layoutY="123.0" prefHeight="27.0" prefWidth="246.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <MenuBar prefHeight="25.0" prefWidth="413.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#aboutPop" text="About" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#printMemoryPop" text="Print Memory" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" onAction="#helpPop" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Help" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
